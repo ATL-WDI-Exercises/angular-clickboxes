@@ -1,0 +1,23 @@
+{
+  "name": "angular-pets",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "eareese <eareese@eareese.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/atl-wdi-exercises/angular-clickboxes",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bulma": "^0.1.2"
+  }
+}
