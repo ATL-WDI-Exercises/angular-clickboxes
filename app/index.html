@@ -9,19 +9,16 @@
 
     <script src="bower_components/angular/angular.js"></script>
     <script src="app.js"></script>
+    <script src="boxes.component.js"></script>
   </head>
 
-  <body ng-controller="ClickboxesController">
+  <body>
 
     <div class="columns">
       <div class="column is-half is-offset-one-quarter is-desktop">
 
-        <p class="control" ng-repeat="box in boxes">
-          <label class="checkbox">
-            <input type="checkbox">
-            {{box.id}}: {{box.value}}
-          </label>
-        </p>
+      <boxes></boxes>
+
 
       </div>
     </div>
