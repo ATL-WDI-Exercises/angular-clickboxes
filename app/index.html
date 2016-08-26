@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app="clickboxesApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Clickboxes App</title>
+
+    <link rel="stylesheet" href="bower_components/bulma/css/bulma.css" />
+    <link rel="stylesheet" href="app.css" />
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="ClickboxesController">
+
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter is-desktop">
+
+        <p class="control" ng-repeat="box in boxes">
+          <label class="checkbox">
+            <input type="checkbox">
+            {{box.id}}: {{box.value}}
+          </label>
+        </p>
+
+      </div>
+    </div>
+
+  </body>
+</html>
